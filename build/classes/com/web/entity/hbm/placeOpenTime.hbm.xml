@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+	
+<hibernate-mapping>
+	<class name="com.web.entity.PlaceOpenTime" table="PlaceOpenTime" catalog="web">
+		<id name="placeOpenTimeID" type="java.lang.Integer">
+			<column name="placeOpenTimeID"></column>
+			<generator class="native"/>  
+		</id>
+		<property name="day" type="java.lang.String">
+			<column name="day"></column>
+		</property>
+		<property name="a0700" type="java.lang.String">
+			<column name="a0700"></column>
+		</property>
+		<property name="a0730" type="java.lang.String">
+			<column name="a0730"></column>
+		</property>
+		<property name="a0800" type="java.lang.String">
+			<column name="a0800"></column>
+		</property>
+		<property name="a0830" type="java.lang.String">
+			<column name="a0830"></column>
+		</property>
+		<property name="a0900" type="java.lang.String">
+			<column name="a0900"></column>
+		</property>
+		<property name="a0930" type="java.lang.String">
+			<column name="a0930"></column>
+		</property>
+		<property name="a1000" type="java.lang.String">
+			<column name="a1000"></column>
+		</property>
+		<property name="a1030" type="java.lang.String">
+			<column name="a1030"></column>
+		</property>
+		<property name="a1100" type="java.lang.String">
+			<column name="a1100"></column>
+		</property>
+		<property name="a1130" type="java.lang.String">
+			<column name="a1130"></column>
+		</property>
+		<property name="p1200" type="java.lang.String">
+			<column name="p1200"></column>
+		</property>
+		<property name="p1230" type="java.lang.String">
+			<column name="p1230"></column>
+		</property>
+		<property name="p1300" type="java.lang.String">
+			<column name="p1300"></column>
+		</property>
+		<property name="p1330" type="java.lang.String">
+			<column name="p1330"></column>
+		</property>
+		<property name="p1400" type="java.lang.String">
+			<column name="p1400"></column>
+		</property>
+		<property name="p1430" type="java.lang.String">
+			<column name="p1430"></column>
+		</property>
+		<property name="p1500" type="java.lang.String">
+			<column name="p1500"></column>
+		</property>
+		<property name="p1530" type="java.lang.String">
+			<column name="p1530"></column>
+		</property>
+		<property name="p1600" type="java.lang.String">
+			<column name="p1600"></column>
+		</property>
+		<property name="p1630" type="java.lang.String">
+			<column name="p1630"></column>
+		</property>
+		<property name="p1700" type="java.lang.String">
+			<column name="p1700"></column>
+		</property>
+		<property name="p1730" type="java.lang.String">
+			<column name="p1730"></column>
+		</property>
+		<property name="p1800" type="java.lang.String">
+			<column name="p1800"></column>
+		</property>
+		<property name="p1830" type="java.lang.String">
+			<column name="p1830"></column>
+		</property>
+		<property name="p1900" type="java.lang.String">
+			<column name="p1900"></column>
+		</property>
+		<property name="p1930" type="java.lang.String">
+			<column name="p1930"></column>
+		</property>
+		<property name="p2000" type="java.lang.String">
+			<column name="p2000"></column>
+		</property>
+		<property name="p2030" type="java.lang.String">
+			<column name="p2030"></column>
+		</property>
+		<property name="p2100" type="java.lang.String">
+			<column name="p2100"></column>
+		</property>
+		<property name="p2130" type="java.lang.String">
+			<column name="p2130"></column>
+		</property>
+		<property name="placeTypeID" type="java.lang.Integer">
+			<column name="placeTypeID"></column>
+		</property>
+	</class>
+</hibernate-mapping>

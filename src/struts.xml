@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="user" extends="struts-default">
+		<action name="*_MemberLoginAction" class="UserAction" method="MemberLogin">
+			<param name="type">{1}</param>
+			<result name="success">/index.jsp</result>
+			<result name="error">/memberLogin.jsp</result>
+		</action>
+		<action name="*_MemberLogoutAction" class="UserAction" method="MemberLogout">
+			<param name="type">{1}</param>
+			<result name="logout">/memberLogin.jsp</result>
+		</action>
+		<action name="*_ManagerLoginAction" class="UserAction" method="ManagerLogin">
+			<param name="type">{1}</param>
+			<result name="success">/placeManage.jsp</result>
+			<result name="error">/managerLogin.jsp</result>
+		</action>
+		<action name="*_ManagerLogoutAction" class="UserAction" method="ManagerLogout">
+			<param name="type">{1}</param>
+			<result name="logout">/managerLogin.jsp</result>
+		</action>
+	</package>
+	
+	
+	<package name="place" extends="struts-default">
+		<action name="*_MemberChangeTypeAction" class="PlaceAction" method="ChangeType">
+			<param name="type">{1}</param>
+			<result name="success">/index.jsp</result>
+			<result name="login">/memberLogin.jsp</result>
+		</action>
+		<action name="*_MemberSreachAction" class="PlaceAction" method="Sreach">
+			<param name="type">{1}</param>
+			<result name="success">/index.jsp</result>
+			<result name="login">/memberLogin.jsp</result>
+		</action>
+		<action name="*_MemberRecordAction" class="PlaceAction" method="Record">
+			<param name="type">{1}</param>
+			<result name="success">/index.jsp</result>
+			<result name="login">/memberLogin.jsp</result>
+		</action>
+		<action name="APP_GetDepartmentAction" class="PlaceAction" method="GetDepartment"></action>
+		<action name="APP_GetDayOpenTimeAction" class="PlaceAction" method="GetDayOpenTime"></action>
+	</package>
+	
+	
+	<package name="manage" extends="struts-default">
+		<action name="*_ManageGetPlaceAction" class="ManageAction" method="ManageGetPlace">
+			<param name="type">{1}</param>
+			<result name="login">/managerLogin.jsp</result>
+			<result name="success">/placeManage.jsp</result>
+		</action>
+		<action name="*_ManageSetPlaceAction" class="ManageAction" method="ManageSetPlace">
+			<param name="type">{1}</param>
+			<result name="login">/managerLogin.jsp</result>
+			<result name="success">/placeManage.jsp</result>
+		</action>
+		<action name="*_ManageDeletePlaceAction" class="ManageAction" method="ManageDeletePlace">
+			<param name="type">{1}</param>
+			<result name="login">/managerLogin.jsp</result>
+			<result name="success">/placeManage.jsp</result>
+		</action>
+		<action name="*_ManageGetOpenTimeAction" class="ManageAction" method="GetOpenTime">
+			<param name="type">{1}</param>
+			<result name="login">/managerLogin.jsp</result>
+			<result name="success">/timeManage.jsp</result>
+		</action>
+		<action name="*_ManageSetOpenTimeAction" class="ManageAction" method="SetOpenTime">
+			<param name="type">{1}</param>
+			<result name="login">/managerLogin.jsp</result>
+			<result name="success">/timeManage.jsp</result>
+		</action>
+		<action name="*_ManagePlaceSetTypeAction" class="ManageAction" method="SetPlaceType">
+			<param name="type">{1}</param>
+			<result name="login">/managerLogin.jsp</result>
+			<result name="success">/placeManage.jsp</result>
+		</action>
+		<action name="*_ManageTimeSetTypeAction" class="ManageAction" method="SetTimeType">
+			<param name="type">{1}</param>
+			<result name="login">/managerLogin.jsp</result>
+			<result name="success">/timeManage.jsp</result>
+		</action>
+	</package>
+</struts>
