@@ -1,0 +1,92 @@
+/* mobile */
+@media only screen and (max-width: 480px) {
+	.ventureBox,.ventureBoxLocked{padding: 15px;}
+	.progressDescribe{width: 35%;margin-left: 1em;}
+	.progressDescribe h3{margin-top: 1.3em;}
+	.progressDescribe p{display: none;}
+	
+	/*helpLink彈出視窗 */
+		.reveal-modal {
+			width: 290px;
+			margin-left: -145px;
+			top:20px;
+			}
+			
+		/* Modal Body */
+		.reveal-modal .cont {
+			padding: 15px 0;
+			width:250px;
+			margin:0 auto;
+			}
+			
+	/*//helpLink彈出視窗 */
+}
+
+/* mobile to Tablets */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+	/* helpLink彈出視窗 */
+	.reveal-modal {
+		width: 370px;
+		margin-left: -185px;
+		margin-top: 50px;
+		}
+	/*//helpLink彈出視窗 */
+}
+
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+}
+
+/* Desktop */
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	
+}
+/* under 1199px use this */
+@media only screen and (max-width: 1199px) {
+	/* navbar */
+	.top-nav-left span.menu {
+		padding: 0;
+		display: block;
+		width: 100%;
+		position: relative;
+	}
+	.top-nav-left {
+		float: right;
+		margin: 0.6em 0 0 1em;
+	}
+	.logo{margin-top: 1em;}
+	.logo img {
+		background-size: 100%;
+		width: 140px;
+		height: 38px;
+	}
+	.top-nav-left ul {
+		display: none;
+		background: rgba(163, 207, 6, 0.6);
+		position: absolute;
+		width: 100%;
+		z-index: 999;
+		left: 0%;
+		margin: 0.7em 0em;
+	}
+	.top-nav-left ul li {
+		display: block;
+		float: none;
+		margin: 0em;
+		padding: 0.6em 0;
+		text-align: center;
+	}
+	.top-nav-left ul li a{
+		color:#fff;
+	}
+	.top-nav-left ul li a:hover{
+		color:#000;
+	}
+	.top-nav-right {
+		margin: 1em 0px;
+	}
+	#loginButton span{
+		padding: 7px 20px;
+	}
+	/*//_navbar */
+}

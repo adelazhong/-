@@ -1,0 +1,158 @@
+/*memberLogin.html*/
+
+.login_wrap {
+    margin-top: 100px;
+}
+
+.login_h3 {
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #9E1C1C;
+}
+
+.login_p {
+    font-size: 18px;
+    color: #A5AE9E;
+}
+
+.login_span {
+    color: #C62623;
+}
+
+.form-group>.login_label {
+    font-size: 16px;
+    text-align: left;
+}
+
+.login_input {
+    height: 40px;
+}
+
+.panel-red {
+    border-top: 4px solid #9E1C1C;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.login_button {
+    margin-top: 10px;
+    padding: 6px 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*button*/
+
+.btn_blue {
+    color: #FFFFFF;
+    background: #4195BA;
+    border: 1px solid #4195BA;
+}
+
+.btn_blue:hover {
+    color: #FFFFFF;
+    background: #1551B2;
+    border: 1px solid #4195BA;
+}
+
+.btn_red {
+    color: #FFFFFF;
+    background: #DD504D;
+    border: 1px solid #DD504D;
+}
+
+.btn_red:hover {
+    color: #FFFFFF;
+    background: #CC2522;
+    border: 1px solid #C62623;
+}
+
+.btn_yellow {
+    color: #FFFFFF;
+    background: #EDFF7A;
+    border: 1px solid #EDFF7A;
+}
+
+.btn_yellow:hover {
+    color: #FFFFFF;
+    background: #FFE548;
+    border: 1px solid #EDFF7A;
+}
+/*end of memberLogin.html*/
+/*index.html*/
+
+body {
+    background: #F5F5F5;
+}
+/*.active_web > a:hover,.active_web > a:focus{
+	border-bottom: 3px solid #F10B14;
+}
+.btn_red{
+	background-color: #F10B14;
+	border-color: #B7060D;
+}
+.btn_red:hover{
+	background-color: #D8070F;
+}*/
+
+a.list-group-item-warning {
+    color: #000000;
+    background: #faf2cc;
+}
+
+a.list-group-item-warning:hover {
+    color: #000000;
+    background: #FCEDA3;
+}
+
+.btn-gray {
+    color: #9d9d9d;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #9d9d9d;
+}
+
+.btn-gray:hover {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+/*end of index.html*/
+/*placeManage.html*/
+
+.pm_tab {
+    border-bottom: 0;
+}
+
+.pm_tab>li>a {
+    padding: 10px 30px;
+    border-color: #eee #eee #ddd;
+    background-color: #eee;
+}
+
+.place_span {
+    padding: 5px 0;
+}
+/*end of placeManage.html*/
+/*timeManage.html*/
+.tm_scroll{
+    overflow-y: auto; 
+}
+.tm_check {
+    margin-left: 6px;
+    margin-top: 15px;
+}
+
+.tm_checkbox {
+    width: 25px;
+    height: 25px;
+}
+.tm_pagination{
+	text-align: center;
+}
+
+.selectpicker{
+    width: 50%;
+    padding: 8px;
+    border-radius: 4px;
+    border-color: #ccc;
+}
+/*end of timeManage.html*/
